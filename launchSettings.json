@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "clean_architecture.db": "StartWithoutDebugging",
+        "clean_architecture.web": "StartDebugging"
+      }
+    }
+  }
+}
